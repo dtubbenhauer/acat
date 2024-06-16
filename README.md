@@ -29,7 +29,31 @@ The idea is that one can identify $\mathbf{A}_{\mathcal{H}}$ by computing cateog
 
 # The Magma code
 
-TBA
+The Magma code can be downloaded on this page. Its called **idempotent_tests.m**. To run it:
+
+- First, setup Joel Gibson's ASLoc which can be found here <a href="https://github.com/joelgibson/asloc">https://github.com/joelgibson/asloc</a>.
+
+- Then you can start the file in your ASLoc folder.
+
+- As soon as its started run one of the procedures listed below. The output will be of the form:
+
+![Output](https://github.com/dtubbenhauer/acat/blob/main/g2.png)
+
+The available procedures are:
+
+```
+B2_complete()
+G2_complete()
+H3_a1_complete()
+H3_a3_complete()
+H3_long_complete()
+H4_complete()
+H4_middle_1()
+H4_middle_9()
+H4_middle_19()
+```
+
+**Small warning**: Some of these run for quite some time.
 
 # Erratum
 
